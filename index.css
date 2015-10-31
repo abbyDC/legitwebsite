@@ -1,5 +1,10 @@
 @font-face { font-family: righteous; src: url('righteous.ttf'); } 
 @font-face { font-family: universalis; src: url('universalis.otf'); } 
+@media(max-width:960px){
+  .navbar, .stuff_des, .wall_1{
+    width: 360px;
+  }
+}
 body{
     margin: 0 auto;
     background: url('galaxy.jpg') no-repeat center center fixed; 
