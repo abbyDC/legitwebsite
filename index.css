@@ -1,0 +1,81 @@
+@font-face { font-family: righteous; src: url('righteous.ttf'); } 
+@font-face { font-family: universalis; src: url('universalis.otf'); } 
+body{
+    margin: 0 auto;
+    background: url('galaxy.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: justify;
+}
+#body2 {
+  margin: 0 auto;
+  max-width: 900px;
+  font-family: universalis;
+  color: white;
+  padding-top: 5px;
+ }
+#footer{
+  background-color: #708090;
+  color: #fafaf0;
+  font-family: universalis;
+  text-align: center;
+  margin-top: 3em;
+  padding: 1em 0;
+}
+.stuff_des {
+  border-top: 2px dotted #bbb;
+  border-bottom: 2px dotted #bbb;
+  margin-top: 70px;
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: left;
+}
+.wall_1 {
+  margin-top: 70px;
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+}
+p{
+	  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+ul.navbar {
+	
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 5em;
+  left: 1em;
+  width: 8em }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+ul.navbar li {
+  font-family: righteous;
+  position: center;
+  background: #483D8B;
+  margin: 0.7em 0;
+  padding: 0.7em;
+  /*border-right: 1em solid #000099*/}
+ul.navbar a {
+  text-decoration: none }
+a:link {
+  color: blue }
+a:visited {
+  color: white }
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
